@@ -2,8 +2,7 @@
 check order of specificity
 make my image scale
 add breaks, media query
-fix datetime
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+fix datetime <time datetime="2001-05-15T19:00">May 15</time>
 */
 
 /* Reset default broswer styles*/
