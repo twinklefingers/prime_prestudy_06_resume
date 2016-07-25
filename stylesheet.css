@@ -19,8 +19,8 @@ head body header main aside summary section p h1 ol li b ul time {
 
 body {
     background: hsla(300, 100%, 10%, 1.0)
-                url("http://65.media.tumblr.com/5ca0b852d2a2d9da76a09974b83200f8/tumblr_oas3l0cSkV1qhcqvjo1_500.jpg")
-                repeat center;
+                url("pastellace.jpg")
+                repeat;
     font-family: Verdana, Geneva, sans-serif;
     overflow-x: hidden;
 }
