@@ -1,0 +1,109 @@
+/* This time, hide the entire resume. 
+Then, using a button, reveal the resume 
+using jQuery. Additionally, push the styling 
+of the resume with all the new crazy CSS 
+you just learned! */
+
+/* Reset default broswer styles*/
+html {
+    font-size: 16px; /* default browser font size */
+}
+
+head body header main aside summary section p h1 ol li b ul time {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 62.5%; /* 1 em = 16px */
+    font: inherit;
+} 
+
+body {
+    background: hsla(300, 100%, 10%, 1.0)
+                url("http://65.media.tumblr.com/5ca0b852d2a2d9da76a09974b83200f8/tumblr_oas3l0cSkV1qhcqvjo1_500.jpg")
+                repeat center;
+    font-family: Verdana, Geneva, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    margin: 0.3125em -0.625em; /* 5px / 16ps -10px / 16px */
+    padding: 0.5em; /* 8px / 16px */
+    font: bold 2.8125em "Courier New", Courier, monospace; /* 45px / 16px */
+    color: hsla(200, 78%, 82%, 1.0);
+    text-align: center;
+    text-shadow: 0.0625em 0.0625em 0.0625em #000; /* 1px/16px */
+    background-color: hsla(0, 0%, 100%, .75);
+}
+
+.button {
+    text-align: center;
+}
+
+.clickMe {
+
+}
+
+.clickMe:hover {
+  cursor: help;
+}
+
+.hidden {
+    margin: 0.625em auto 3.125em; /* 10px / 16px 50px / 16px */
+    padding: 1.5625em; /* 25px / 16px */
+    width: 50em; /* 800px / 16px */ 
+    background-color: hsla(200, 71%, 96%, .75);
+}
+
+.topContainer {
+    height: 18.75em; /* 300px / 16px */
+    width: 50em; /* 800px / 16px */
+
+}
+
+aside {
+    line-height: 75%;
+    text-align: right;
+    float: right;
+    margin: 0.625em; /* 10px / 16px */
+}
+
+summary {
+    padding: 2.5em 2.5em ; /* 40px / 16px */
+    width: 18.75em; /* 300px / 16px */
+    height: 6.25em; /* 100px / 16px */
+    font: 1.5625em/90% "Courier New", Courier, monospace; /* 25px / 16px */
+    text-align: center;
+    font-style: italic;
+}
+
+.education {
+    padding: 2.5em 0 ; /* 40px / 16px */;
+}
+
+b:hover {
+    color: hsla(282, 80%, 42%, 1.0);
+}
+
+a {
+    color: hsla(282, 80%, 42%, 1.0);
+}
+
+time {
+    float: right;
+    font-style: italic;
+    padding: 0.1875em 0 0 0; /* 3px / 16px */
+}
+
+h1 {
+    border-bottom: 0.0625em solid black; /* 1px / 16px */
+}
+
+.place {
+    font-size: 1.25em; /* 20px / 16px */
+    border-bottom: 0.3125em dotted #333333; /* 5px / 16px */
+}
+ 
+ul {
+    list-style-type: square;
+}
+
