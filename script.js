@@ -1,11 +1,28 @@
 $(document).ready(function(){
- $('button').on('click' function) {
+ $('button.clickMe').on('click', function) {
+   $('main.hidden').show();
+   $('button.clickMe').remove();
+  }); 
+});
+
+/*
+I tried all these... :/
+
+$(document).ready(function(){
+ $('button').on('click', function) {
    $('main').show();
    $('button').remove();
   }); 
 });
 
-/*
+$(document).ready(function(){
+ $('.clickMe').on('click', function) {
+   $('.hidden').show();
+   $('.clickMe').remove();
+  }); 
+});
+
+
 $(document).ready(function(){
 	$('.hidden').hide();
 	$('.clickMe').click(function () {
@@ -24,9 +41,9 @@ $(document).ready(function(){
 	});
 });
 
+other possible leads:
 Toggle
-
-mouseenter / mouseleave
+mouseenter / mouseleave relationship
 */
 
 /*
@@ -36,16 +53,4 @@ hide the button
 show the body
 */
 
-/*
-Also want to check order of specificity
-make that image of myself scale
-add breaks, media query
-fix datetime
-*/
 
-/*
-A few things to watch out for:
-(2) time elements expect a 
-specific datetime format. 
-See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
-*/

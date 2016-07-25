@@ -1,8 +1,10 @@
-/* This time, hide the entire resume. 
-Then, using a button, reveal the resume 
-using jQuery. Additionally, push the styling 
-of the resume with all the new crazy CSS 
-you just learned! */
+/*
+check order of specificity
+make my image scale
+add breaks, media query
+fix datetime
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+*/
 
 /* Reset default broswer styles*/
 html {
